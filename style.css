@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+ font-family: "Roboto", sans-serif;
+}
+
+.header__container {
+ background-color: #F2F2F2;
+ width: 100%;
+ height: 55px;
+}
+
+.header__container-title {
+ display: flex;
+ margin: 0 20%;
+ align-items: center;
+ height: 100%;
+ gap: 30px;
+ width: 100%;
+}
+
+.header__container-title i {
+ font-size: 22px;
+}
+
+.header-searce i {
+ font-size: 15px;
+}
+
+.header__container-title ul {
+ display: flex;
+ gap: 30px;
+ font-size: 14px;
+ font-weight: 600;
+ align-items: center;
+}
+
+.header-searce {
+ display: flex;
+ gap: 15px;
+}
+
+.main__container {
+ margin: 0 17%;
+ width: 100%;
+ padding: 25px 0;
+ display: flex;
+ gap: 25px;
+}
+
+.slide {
+ text-align: center;
+}
+
+.slide p {
+ font-size: 12px;
+ margin-top: 5px;
+ text-align: center;
+}
+
+.slide span {
+ color: #bf4800;
+ font-size: 10px;
+}
+
+.prize-title {
+ width: 100%;
+ height: 100px;
+ background-color: #F2F2F2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.prize-title p {
+ font-size: 25px;
+ width: 42%;
+ font-weight: 300;
+}
+
+.prize-title span {
+ color: blue;
+ font-size: 22px;
+}
+
+.prize-title span:hover {
+ text-decoration: underline;
+}
+
+.main__iPhone {
+ width: 100%;
+ height: 100vh;
+ background-color: black;
+ padding: 100px 50%;
+}
+
+.foto1 {
+ margin: 15px -50px;
+}
+
+.foto2 {
+ margin: 0 -80px;
+}
+
+.text-one {
+ color: red;
+ font-size: 12px;
+}
+
+.text-two {
+ color: white;
+ width: 400px;
+ font-size: 1.4rem;
+ margin: 15px -150px;
+}
+
+.main__iPhone button,
+.iphone__power-title button {
+ background-color: blue;
+ font-size: 1.4rem;
+ border: none;
+ border-radius: 15px;
+ width: 80px;
+ height: 40px;
+ color: white;
+ margin: 0 -25px;
+}
+
+.main__iPhone a,
+.iphone__power-title a {
+ width: 250px;
+ display: inline-block;
+ margin: 20px -35px;
+ font-size: 1.25rem;
+ color: blue;
+}
+
+.main__iPhone a:hover,
+.iphone__power-title a:hover {
+ text-decoration: underline;
+}
+
+.main__iPhone-foto img {
+ height: 200px;
+ margin: 60px -270px;
+}
+
+.main__white {
+ background-color: white !important;
+}
+
+.foto-white {
+ margin: 15px -40px;
+}
+
+.text-white {
+ font-weight: 400;
+ margin: 0 -130px;
+ font-size: calc(1.425rem + 2.1vw);
+}
+
+.text-two-white {
+ color: black !important;
+}
+
+.iphone-foto img {
+ margin: 20px -800px;
+ height: 300px;
+}
+
+.iphone__power {
+ width: 100%;
+ height: 120vh;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 30px;
+}
+
+.mobile-text {
+ color: black !important;
+ margin: 15px -170px;
+}
+
+.iphone__power-title button {
+ margin: 0 -20px !important;
+}
+
+.iphone__power-title a {
+ margin: 15px -40px !important;
+}
+
+.iphone__power-title {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.power-text1 {
+ background-clip: text;
+ background-image: linear-gradient(90deg, rgb(30, 55, 145) 0%, rgb(41, 72, 177) 40%, rgb(49, 83, 198) 55%, rgb(56, 95, 218) 60%);
+ color: transparent;
+ font-weight: 600;
+ font-size: 2rem;
+ margin: 1px -80px;
+}
+
+.iphone__power-title img {
+ margin: 15px -25px;
+ vertical-align: middle;
+ font-weight: 400;
+ width: 100px;
+}
+
+.mainbg4 {
+ background: url('./image/human.jpg');
+ background-size: cover;
+ background-position: center;
+ height: 90vh;
+ border-radius: 5%;
+ margin: 5px 50px;
+ width: 90%;
+}
+
+.mainbg4-title {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ gap: 10px;
+ height: 100%;
+ color: #fff;
+ padding: 0 20%;
+}
+
+.mainbg4-title button {
+ width: 130px;
+ color: black;
+ background: #fff;
+ height: 40px;
+ border-radius: 10px;
+ font-size: 16px;
+}
+
+.mainbg4-title p {
+ font-size: 2.3em;
+ font-weight: bold;
+}
+
+.iphone__about{
+ overflow: hidden;
+ margin: 50px 0;
+}
+
+.iphone__about h2{
+text-align: center;
+font-size: 2.5rem;
+font-weight: 500;
+}
+
+
+
+
+/* .mainbg5 {
+ margin-top: 100px;
+}
+
+.mainbg5 h1 {
+ text-align: center;
+}
+
+.ilks {
+ padding: 60px 18px;
+ border-bottom: .7px solid gray;
+}
+
+#bir {
+ border-radius: 50%;
+ background: gray;
+}
+
+#iki {
+ border-radius: 50%;
+ background: rgb(73, 72, 72);
+}
+
+#uc {
+ border-radius: 50%;
+ background: #fff;
+}
+
+#dort {
+ border-radius: 50%;
+ background: #333;
+}
+
+#bes {
+ border-radius: 50%;
+ background: pink;
+}
+
+#alti {
+ border-radius: 50%;
+ background: #f1f199;
+}
+
+#yeddi,
+#sekkiz {
+ border-radius: 50%;
+ background: gray;
+}
+
+#doqquz {
+ border-radius: 50%;
+ background: #333;
+}
+
+#on {
+ border-radius: 50%;
+ background: #8a8ae4;
+}
+
+#onbir {
+ border-radius: 50%;
+ background: gray;
+}
+
+#oniki {
+ border-radius: 50%;
+ background: #d1d141;
+}
+
+#onuc {
+ border-radius: 50%;
+ background: #000;
+}
+
+#ondord {
+ border-radius: 50%;
+ background: #e6d8d8;
+}
+
+#onbes {
+ border-radius: 50%;
+ background: red;
+}
+
+#onalti {
+ border-radius: 50%;
+ background: #000;
+}
+
+#onyeddi {
+ border-radius: 50%;
+ background: #e6d8d8;
+}
+
+#onsekkiz {
+ border-radius: 50%;
+ background: red;
+}
+
+#lm5 {
+ display: block;
+}
+
+.phones {
+ display: flex;
+ gap: 30px;
+ justify-content: center;
+}
+
+.phones .ilks {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.ilks p {
+ text-align: center;
+}
+
+.ilks div i {
+ font-size: .8em;
+}
+
+.ilks a {
+ text-decoration: none;
+}
+
+.texts {
+ display: flex;
+ gap: 66px;
+ justify-content: center;
+ padding: 50px;
+ text-align: center;
+ font-size: 1em;
+}
+
+.texts1 {
+ display: flex;
+ gap: 76px;
+ justify-content: center;
+ text-align: center;
+ font-size: 1em;
+}
+
+.texts1 div {
+ border-bottom: .7px solid gray;
+ padding-bottom: 20px;
+}
+
+.texts1 div #icno {
+ padding-top: 50px;
+}
+
+.texts1 div #icno1 {
+ padding-top: 50px;
+}
+
+.texts1 div #icno2 {
+ padding-top: 83px;
+}
+
+.texts1 div #icno3 {
+ padding-top: 83px;
+}
+
+#alar {
+ display: flex;
+ justify-content: center;
+ gap: 40px;
+ padding: 40px 0 100px;
+}
+
+#alar a {
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 1.2em;
+} */
